@@ -1,0 +1,62 @@
+
+* background {
+   background-color: lightcyan;
+}
+
+header {
+    background-color: lightgrey;
+    border: 3px solid white;
+    border-radius: 5px
+    display: flex;
+}
+
+header nav {
+    box-align: right;
+}
+
+.Header1 {
+    border: 1px solid grey;
+    padding: 0px 0px;
+    position: center-align;
+    text align: right;
+    width: 100%
+    display: flex;
+    text-align:justify
+
+}
+
+#About-Me {
+    background-color: teal;
+    padding: auto:initial
+    display: flex;
+    text-align: center;
+    color: white;
+
+}
+
+#Work {
+    background-color: darkmagenta;
+}
+
+#My-Work {
+    background-color: teal;
+    padding: initial;
+    display:flex
+    text-align: justify;
+    color: white;
+    Margin: 7px 0px;
+}
+
+#Back-End {
+    background-color: lightslategrey;
+    padding: 40px 20px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    display:flex;
+    align-content: space-between; center;
+    vertical-align: inherit;
+}
+
+#My-Contact-Info, p {
+    text-align: center; 
+}
