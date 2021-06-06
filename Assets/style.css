@@ -9,8 +9,9 @@ header {
     display: flex;
 }
 
-header nav {
-    box-align: right;
+.main-header {
+    text-align:left;
+    background-color: royalblue;
 }
 
 .Header1 {
@@ -24,11 +25,12 @@ header nav {
 
 }
 
-div.card {
 
-} 
-    background-color: red;
-    }
+.navbar-brand {
+    text-align:right;
+    display:flexbox;
+    padding-bottom: 7px;
+}
 
 #About-Me {
     background-color: teal;
@@ -41,7 +43,7 @@ div.card {
 
 }
 
-#My-Work {
+.My-Work {
     background-color: teal;
     padding: initial;
     display:flex

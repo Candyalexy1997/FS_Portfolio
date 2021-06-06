@@ -3,39 +3,69 @@
 
 <head>
   <title>Portfolio</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="./Assets/style.css">
 
 <body>
-  
-  <div id="header1" class="container">
-      <h1>The Whiskey Way</h1>
-      <h2> <em>By Candice Whiskey</em></h2>
-      <nav>
-        <ul>
-          <li><a href="#About-Me">About Me</a></li>
-          <li><a href="#My-Work">My Work</a></li>
-          <li><a href="#My-Contact-Info">My Contact Info</a></li>
-        </ul>
+
+  <!-- Added a Navbar-->
+  <div id="main-header">
+    <nav class="navbar navbar-light bg-light">
+      <span class="navbar-brand mb-0 h1">
+        <h2>Whiskey's Portfolio</h2>
+      </span>
+      <ul class="main-list">
+        <li><a href="#About-Me">About Me</a></li>
+        <li><a href="#My-Work">My Work</a></li>
+        <li><a href="#My-Contact-Info">My Contact Info</a></li>
+      </ul>
+
+      <div class="card">
+        <div class="card-header">
+        <div class="card-body">
+          <blockquote class="blockquote mb-0">
+            <p>Trust in God, all others must bring data</p>
+            <footer class="blockquote-footer">By <cite title="Source Title">Author Name</cite></footer>
+          </blockquote>
+        </div>
+      </div>
     </nav>
   </div>
 
-  <div class="card-columns" container>
-    <div class="card">
-      <img src="" class="image-thumbnail">
-      <div class="card-body">Run Buddy</h5>
-        <a href="https://candyalexy1997.github.io/run-buddy/"><img src="./runbuddy.png"
-          alt="Run Buddy Project" style="width:400px; height:300px;"></a>
+  <div class="card" style="width: 128rem;">
+    <div class="card-body">
+      <h5 class="card-title">All About Me</h5>
+      <p>Placeholder</p>
+      <h6 class="card-subtitle mb-2 text-muted"></h6>
+      <img src="" alt="image placeholder">
+      <!-- <a href="#" class="card-link">Card link</a> -->
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Run Buddy Site</h5>
+          <p class="card-text">Find the perfect running partner.</p>
+          <a href="https://candyalexy1997.github.io/run-buddy/"><img src="./runbuddy.png"
+              style="width:400px; height:300px" alt="Run Buddy Project" class="btn btn-primary"></a>
+        </div>
       </div>
     </div>
   </div>
 
-  <div id="My-Work" class="card-columns" container>
-    <div class="card">
-      <img src="" class="image-thumbnail">
-      <div class="card-body">
-        <h5 class="card-title">Waterways website</h5>
-        <a href="https://sleepy-headland-09517.herokuapp.com/"><img src="./Assets/images/Water.jpg"
-          alt="WaterWays Website" style="width:400px; height:300px;"></a>
+
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">The WaterWays</h5>
+          <p class="card-text">WaterWays Website For WaterCraft Rentals.</p>
+          <a href="https://sleepy-headland-09517.herokuapp.com/"><img src="./Assets/images/Water.jpg"
+              alt="WaterWays Website" class="btn btn-primary" style="width:400px; height:300px;"></a>
+        </div>
       </div>
     </div>
   </div>
@@ -45,7 +75,6 @@
     <p> <strong>Email: Whiskey123@gmail.com | Address: 1234 Leeway Drive, Orlando, FL 32835 | Tel: 347-111-9876
       </strong></p>
   </div>
-
 
 </body>
 
