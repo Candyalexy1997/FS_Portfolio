@@ -1,6 +1,5 @@
 
-* background {
-   background-color: lightcyan;
+*background-image: shadow 
 }
 
 header {
@@ -25,17 +24,21 @@ header nav {
 
 }
 
+div.card {
+
+} 
+    background-color: red;
+    }
+
 #About-Me {
     background-color: teal;
-    padding: auto:initial
+    padding: initial;
     display: flex;
     text-align: center;
     color: white;
 
 }
 
-#Work {
-    background-color: darkmagenta;
 }
 
 #My-Work {
@@ -43,19 +46,11 @@ header nav {
     padding: initial;
     display:flex
     text-align: justify;
-    color: white;
+    color: black;
     Margin: 7px 0px;
 }
 
-#Back-End {
-    background-color: lightslategrey;
-    padding: 40px 20px;
-    margin-top: 50px;
-    margin-bottom: 20px;
-    display:flex;
-    align-content: space-between; center;
-    vertical-align: inherit;
-}
+
 
 #My-Contact-Info, p {
     text-align: center; 
